@@ -139,7 +139,7 @@ class WeatherApp:
         self.__city_name = StringVar()
 
         # Initialize components
-        self.__api = WeatherAPI("df9a15b344dd72a2eeaa6387ebacf94e")
+        self.__api = WeatherAPI("")
         self.__setup_window()
         self.__create_widgets()
 
